@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RPS-Multiplayer</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/css.css">
+</head>
+<body>
+	<div class="container">
+	<div class="jumbotron"> 
+		<h1 class="text-center">Let's Play Rock, Paper, Scissors!</h1> 
+	</div>
+	<div id="playerInput">
+		<p class="text-center">create form to input player name<br>after player name submitted, greet (playername) as player 1 or 2</p>
+	</div>
+	<div id="gameAlert" class="text-center">this is where game will alert players on status, wins, losses</div><br>
+	<div class="row">
+		<div class="col-md-3 panel panel-default">
+		  <div class="panel-heading">
+		    <h3 id="player1" class="panel-title">Player1</h3>
+		  </div>
+		  <div class="panel-body">
+		    Rock Paper or Scissors
+		  </div>
+		  <div id="player1Score" class="panel-footer">Player1's Score</div>
+		</div>
+		<div class="col-md-4 col-md-offset-1 panel panel-default">
+		  <div id="winner" class="panel-body">
+		    Round Winner
+		  </div>
+		</div>
+		<div class="col-md-3 col-md-offset-1 panel panel-default">
+		  <div class="panel-heading">
+		    <h3 id="player2" class="panel-title">Player2</h3>
+		  </div>
+		  <div class="panel-body">
+		    Rock Paper or Scissors
+		  </div>
+		  <div id="player2Score" class="panel-footer">Player2's Score</div>
+		</div>
+	</div>
+	<div class="text-center">Chat box will go down here</div>
+	</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/js.js"></script>
+</body>
+</html>
