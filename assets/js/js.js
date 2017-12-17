@@ -10,3 +10,13 @@ var config = {
 firebase.initializeApp(config)
 
 
+//let's make some variables
+var player1 = null
+var player2 = null
+var player1Name
+var player2Name
+var player1RPS
+var player2RPS
+var turn = 1
+var database = firebase.database()
+
